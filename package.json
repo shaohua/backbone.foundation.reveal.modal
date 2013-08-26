@@ -29,6 +29,7 @@
   "devDependencies": {
     "grunt-mocha-test": "~0.6.3",
     "grunt": "~0.4.1",
-    "chai": "~1.7.2"
+    "chai": "~1.7.2",
+    "grunt-cli": "~0.1.9"
   }
 }
