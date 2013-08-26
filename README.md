@@ -1,4 +1,6 @@
-backbone.foundation.reveal.modal
-================================
+backbone_foundation_modal
+=========================
 
-A thin Backbone wrapper for Foundation Reveal Modal
+An attempt to build a backbone wrapper for Foundation modal
+
+Inspired by https://github.com/powmedia/backbone.bootstrap-modal
