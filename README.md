@@ -9,3 +9,13 @@ backbone foundation reveal modal
 An attempt to build a backbone wrapper for Foundation modal
 
 Inspired by https://github.com/powmedia/backbone.bootstrap-modal
+
+### Install
+bower search backbone.foundation.reveal.modal
+bower install backbone.foundation.reveal.modal
+
+### Authors:
+https://github.com/shaohua/
+https://github.com/haoliu119/
+https://github.com/barrymwong
+https://github.com/sportanova
