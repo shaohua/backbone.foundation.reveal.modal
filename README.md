@@ -1,4 +1,4 @@
-backbone_foundation_modal
+backbone foundation reveal modal
 =========================
 
 ### Travis-CI
