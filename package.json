@@ -27,6 +27,7 @@
     "url": "https://github.com/shaohua/backbone.foundation.reveal.modal/issues"
   },
   "devDependencies": {
-    "grunt-mocha-test": "~0.6.3"
+    "grunt-mocha-test": "~0.6.3",
+    "grunt": "~0.4.1"
   }
 }
