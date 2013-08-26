@@ -15,7 +15,7 @@ bower search backbone.foundation.reveal.modal
 bower install backbone.foundation.reveal.modal
 
 ### Authors:
-https://github.com/shaohua/
-https://github.com/haoliu119/
-https://github.com/barrymwong
-https://github.com/sportanova
+* https://github.com/shaohua/
+* https://github.com/haoliu119/
+* https://github.com/barrymwong
+* https://github.com/sportanova
