@@ -9,14 +9,31 @@
     <title>Backbone Foundation Reveal Modal</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="styles/vendor.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
+    <link rel="stylesheet" href="vendors/foundation-4.3.1/css/normalize.css">
+    <link rel="stylesheet" href="vendors/foundation-4.3.1/css/foundation.css">
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+        <h2> Test Backbone Foundation Reveal Modal </h2>
+        <div class="row">
+            <div class="large-4 columns">
+                <div class="panel">
+                    <ul>
+                        <li>first modal</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="large-4 columns">
+                <div class="panel">
+                    <ul>
+                        <li>second modal</li>
+                    </ul>
+                </div>
+          </div>
+        </div>
+    </div>
     <!--[if lt IE 7]>
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
@@ -28,10 +45,9 @@
     <script src="bower_components/foundation/js/foundation/foundation.reveal.js"></script>
 
     <script src="scripts/main.js"></script>
-    <script src="scripts/templates.js"></script>
-    <script src="scripts/models/app.js"></script>
-    <script src="scripts/views/app.js"></script>
-    <script src="scripts/routes/app.js"></script>
+    <script src="scripts/app_model.js"></script>
+    <script src="scripts/app_view.js"></script>
+    <script src="scripts/app_router.js"></script>
 
   </body>
 </html>
