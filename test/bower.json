@@ -23,6 +23,7 @@
     "backbone.foundation.reveal.modal": "*",
     "underscore": "*",
     "jquery": "*",
-    "backbone": "*"
+    "backbone": "*",
+    "foundation": "4.3.1"
   }
 }
