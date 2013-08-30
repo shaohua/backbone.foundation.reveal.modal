@@ -11,7 +11,7 @@ TestModal.Views.AppView = Backbone.View.extend({
   },
 
   open_first_modal: function(){
-    var modal = Backbone.FoundationModal({
+    var modal = new Backbone.FoundationModal({
             title: "this is the modal title",
             content: 'this is the modal content',
             okText: 'OK'
@@ -21,10 +21,10 @@ TestModal.Views.AppView = Backbone.View.extend({
   },
 
   open_second_modal: function(){
-    var modal = Backbone.FoundationModal({
-            title: "this is the modal title",
+    var modal = new Backbone.FoundationModal({
+            title: false,
             content: 'this is the modal content',
-            okText: 'OK'
+            footer: false
           });
 
     modal.open();
