@@ -10,6 +10,7 @@ window.TestModal = {
     var app_view = new this.Views.AppView({
       model: app_model
     });
+    app_view.render();
 
     Backbone.history.start({
       pushState: false,
