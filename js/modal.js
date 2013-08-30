@@ -171,4 +171,19 @@
 
   });
 
+  //Now export this to Backbone.FoundationModal
+
+    //for CommonJS
+  if (typeof require === 'function' && typeof module !== 'undefined' && exports ) {
+    module.exports = Modal;
+  } else if (typeof define === 'function' && define.amd ) {
+    //for AMD / RequireJS
+    return define(function(){
+      Backbone.FoundationModal = Modal;
+    });
+  } else {
+    //for regular
+    Backbone.FoundationModal = Modal;
+  }
+
 })(jQuery, _, Backbone);
