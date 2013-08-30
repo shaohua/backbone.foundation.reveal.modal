@@ -2,15 +2,16 @@ TestModal.Views.AppView = Backbone.View.extend({
   el: $('#app'),
 
   events: {
-    'click .first_modal': 'open_first_modal',
-    'click .second_modal': 'open_second_modal'
+    'click .standard_modal': 'open_standard_modal',
+    'click .standard_modal_text_changed': 'open_standard_modal_text_changed',
+    'click .slim_modal': 'open_slim_modal'
   },
 
   initialize: function () {
     // body...
   },
 
-  open_first_modal: function(){
+  open_standard_modal: function(){
     var modal = new Backbone.FoundationModal({
             title: "this is the modal title",
             content: 'this is the modal content',
@@ -20,7 +21,18 @@ TestModal.Views.AppView = Backbone.View.extend({
     modal.open();
   },
 
-  open_second_modal: function(){
+  open_standard_modal_text_changed: function(){
+    var modal = new Backbone.FoundationModal({
+            title: "Another title",
+            content: 'Another content',
+            okText: 'Close',
+            cancelText: 'Never Mind'
+          });
+
+    modal.open();
+  },
+
+  open_slim_modal: function(){
     var modal = new Backbone.FoundationModal({
             title: false,
             content: 'this is the modal content',
@@ -31,7 +43,7 @@ TestModal.Views.AppView = Backbone.View.extend({
   },
 
   render: function(){
-    this.$el.find('.test').html('test');
+    this.$el.find('.test').html('Refer to the doc for more options.');
     return this;
   }
 });
