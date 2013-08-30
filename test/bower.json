@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "homepage": "https://github.com/shaohua/backbone.foundation.reveal.modal",
+  "authors": [
+    "Shaohua Zhou <sh.zhou@gmail.com>"
+  ],
+  "description": "List of components for testing",
+  "main": "testModal.js",
+  "keywords": [
+    "test"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone.foundation.reveal.modal": "*",
+    "underscore": "*",
+    "jquery": "*",
+    "backbone": "*"
+  }
+}
