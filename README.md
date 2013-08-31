@@ -34,3 +34,6 @@ backbone foundation reveal modal
 ### Screenshots:
 
 ![Different options](http://i.imgur.com/ksjU9xF.png "Showing different options")
+![Standard](http://i.imgur.com/Qi3wErs.png "Standard")
+![Standard with text changed](http://i.imgur.com/G4SWgKP.png "Standard with text changed")
+![Slim](http://i.imgur.com/bctECG3.png "Slim")
