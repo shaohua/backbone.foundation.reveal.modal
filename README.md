@@ -14,6 +14,17 @@ backbone foundation reveal modal
 * bower search backbone.foundation.reveal.modal
 * bower install backbone.foundation.reveal.modal
 
+### To use
+```
+    var modal = new Backbone.FoundationModal({
+            title: "this is the modal title",
+            content: 'this is the modal content',
+            okText: 'OK'
+          });
+
+    modal.open();
+```
+
 ### Authors:
 * https://github.com/shaohua/
 * https://github.com/haoliu119/
