@@ -12,6 +12,8 @@ window.TestModal = {
     });
     app_view.render();
 
+    var appRouter = new TestModal.Routers.AppRouter();
+
     Backbone.history.start({
       pushState: false,
       root: '/',
