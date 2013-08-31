@@ -19,3 +19,7 @@ backbone foundation reveal modal
 * https://github.com/haoliu119/
 * https://github.com/barrymwong
 * https://github.com/sportanova
+
+### Screenshots:
+
+![Different options](http://i.imgur.com/ksjU9xF.png "Showing different options")
