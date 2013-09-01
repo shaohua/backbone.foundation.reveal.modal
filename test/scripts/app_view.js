@@ -39,7 +39,7 @@ TestModal.Views.AppView = Backbone.View.extend({
             footer: false
           });
 
-    modal.open();
+    modal.openOnce();
   },
 
   render: function(){

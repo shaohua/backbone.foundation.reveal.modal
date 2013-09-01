@@ -162,6 +162,14 @@
     },
 
     /**
+     * A throttled version of open
+     */
+    openOnce: function(callback){
+      var throttled = _.throttle(this.open, 500);
+      throttled.call(this, callback);
+    },
+
+    /**
      * Closes the modal
      */
     close: function() {
