@@ -110,6 +110,10 @@
         cancelText: 'Cancel',
         allowCancel: true
       }, options);
+
+      //create a throttled version of open
+      this.throttled = _.throttle(this.open, 500, {trailing: false});
+
     },
 
     /**
@@ -165,8 +169,7 @@
      * A throttled version of open
      */
     openOnce: function(callback){
-      var throttled = _.throttle(this.open, 500);
-      throttled.call(this, callback);
+      this.throttled.call(this, callback);
     },
 
     /**
