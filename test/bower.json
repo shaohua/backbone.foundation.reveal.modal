@@ -20,7 +20,7 @@
     "tests"
   ],
   "dependencies": {
-    "backbone.foundation.reveal.modal": "0.0.3",
+    "backbone.foundation.reveal.modal": "0.0.4",
     "underscore": "*",
     "jquery": "*",
     "backbone": "*",
