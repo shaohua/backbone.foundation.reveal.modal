@@ -139,6 +139,13 @@
 
       this.isRendered = true;
 
+      var that = this;
+      //Remove DOM element if clicking on the background
+      var $background = $('.reveal-modal-bg');
+      $background.one('click', function(){
+        that.close();
+      });
+
       return this;
     },
 
