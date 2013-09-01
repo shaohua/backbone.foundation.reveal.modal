@@ -4,11 +4,15 @@ TestModal.Views.AppView = Backbone.View.extend({
   events: {
     'click .standard_modal': 'open_standard_modal',
     'click .standard_modal_text_changed': 'open_standard_modal_text_changed',
-    'click .slim_modal': 'open_slim_modal'
+    'click .slim_modal': 'open_slim_modal',
+    'click .open_once': 'open_once'
   },
 
   initialize: function () {
-    // body...
+    this.modalOnce = new Backbone.FoundationModal({
+            title: "This modal only open every 0.5 seconds",
+            content: 'this is the modal content'
+          });
   },
 
   open_standard_modal: function(){
@@ -39,7 +43,11 @@ TestModal.Views.AppView = Backbone.View.extend({
             footer: false
           });
 
-    modal.openOnce();
+    modal.open();
+  },
+
+  open_once: function(){
+    this.modalOnce.openOnce();
   },
 
   render: function(){
