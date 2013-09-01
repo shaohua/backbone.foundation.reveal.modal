@@ -1,6 +1,6 @@
 {
   "name": "backbone.foundation.reveal.modal",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A thin Backbone wrapper for Foundation Reveal Modal",
   "main": "./js/modal.js",
   "directories": {
